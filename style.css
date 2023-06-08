@@ -135,7 +135,7 @@ a:hover {
 td,
 tr,
 a {
-    transition: all 2s step-end;
+    transition: all 2s ease;
 }
 
 tbody tr:hover {
