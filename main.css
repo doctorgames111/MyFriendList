@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 320px;
+    height: 160px;
+    border: 4px black solid;
+    background-color: red;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div::before {
+    content: "AMR";
+    color: red;
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+div:hover::before {
+    color: white;
+    transition-duration: 0.5s;
+    transform: rotate(360deg);
+    transform: ;
+}
