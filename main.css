@@ -25,11 +25,13 @@ div::before {
     font-size: 65px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    transition-duration: 0.5s;
+    transition-duration: 10s;
+    transition-timing-function: cubic-bezier(.59,0,.41,1.01);
 }
 
 div:hover::before {
     opacity: 1;
-    transition-duration: 0.5s;
-    transform: rotate(360deg);
+    transition-duration: 10s;
+    transform: rotate(3600deg);
+    transition-timing-function: cubic-bezier(.59,0,.41,1.01);
 }
